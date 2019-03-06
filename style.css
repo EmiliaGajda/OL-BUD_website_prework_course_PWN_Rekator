@@ -1,0 +1,76 @@
+/*@font-face{
+	font-family: 'eurocine_bold'; //za gruba czcionka wziąć delikatniejszą
+	src: url('eurocine_bold.otf');
+}
+*/
+
+@font-face{
+	font-family: 'Rashford'; 
+	src: url('Rashford.ttf');
+}
+
+body {
+	font-family: 'Rashford';
+	font-size: 49px;
+	background-image: url('salon.jpg');
+	background-attachment: fixed;
+	background-size: 85%;
+	margin-top: 10px;
+}
+
+#firma {
+	color: rgb(54, 64, 40);
+	text-shadow: 0 0 0.2em yellow;
+	text-align: center; 
+}
+
+#osoba {
+	color: rgb(22,26,56);
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.5); 
+}
+
+#oferta {
+	color: rgb(203,202,232);
+	text-align: center;
+}
+
+#opis {
+	color: rgb(54, 64, 40);
+	text-shadow: 0 0 0.2em yellow;
+	margin-left: 130px;
+	margin-right: 130px;
+	text-align: center;
+}
+
+#Menu {
+float: center;
+width: 100%;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+#Menu {
+display: block;
+float: left;
+text-align: center;
+font-size: 0.8em;
+width: 150px;
+text-decoration: none;
+color: rgb(54, 64, 40);
+padding: 5px 15px;
+border-radius: 3px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-webkit-box-shadow: 0px 3px 0px rgb(54, 64, 40);
+}
+
+
+#galeria {
+	width: 120px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+	
